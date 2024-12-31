@@ -6,10 +6,11 @@ Lihat orang-orang yang anda ikuti tapi tidak mengikuti Anda kembali (seleb).
 ### Requirements (persyaratan)
 * [Python3](https://www.python.org/) - Programming Language
 
-### How to Use
+### How to Use (cara menggunakan)
 1. Download the followers and following data through IG settings. Steps: Setting > Account Center > Your Information and Permission > Download Your Information > Some of your information > Followers and Following✅ > format: JSON > date range: All time (optional) > Download (in current activity). 
 
 2. Clone the repository:
+Open your Command Prompt or Terminal
 ```
 git clone https://github.com/lintarrezha/seleb
 ```
