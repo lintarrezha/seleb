@@ -18,7 +18,7 @@ data = json.load(f)
 
 following = []
 
-for i in data["relationship_following"]:
+for i in data["relationships_following"]:
     for j in i["string_list_data"]:
         following.append(j["value"])
         
@@ -29,7 +29,7 @@ for i in following:
     if i in follower:
         seleb.append(i)
         
-for i in follower:
+for i in following:
     if i not in seleb:
         print("https://www.instagram.com/" + i)
         
